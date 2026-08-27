@@ -66,7 +66,7 @@ btn_x.grid(row=2, column=4, pady=8)
 
 #kolom dan baris 456
 btn_4 = Button(root, text="4", padx=20, pady=10, font=("Arial", 8), command=lambda: klik(4))
-btn_5 = Button(root, text="8", padx=20, pady=10, font=("Arial", 8), command=lambda: klik(5))
+btn_5 = Button(root, text="5", padx=20, pady=10, font=("Arial", 8), command=lambda: klik(5))
 btn_6 = Button(root, text="6", padx=20, pady=10, font=("Arial", 8), command=lambda: klik(6))
 btn_kurang = Button(root, text="-", padx=20, pady=10, font=("Arial", 8), command=lambda: klik("-"))
 
