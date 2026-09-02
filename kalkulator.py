@@ -39,7 +39,7 @@ def tukar_tanda():
             layar.insert(0, "-" + isi_layar)
         
 # Bikin Layar Kalkulator
-layar = Entry(root, width=24, borderwidth=5, font=("Segoe UI", 14, "bold"), justify="right")
+layar = Entry(root, width=24, borderwidth=1, font=("Segoe UI", 14, "bold"), justify="right", relief="solid", bg="#f3f4f6")
 layar.grid(row=0, column=0, columnspan=8, padx=10, pady=10)
 
 #kolom ataslh
